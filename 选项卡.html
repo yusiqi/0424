@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{margin:0; padding:0; list-style:none;}
+#box{width:200px;}
+#box input{background:#ccc;}
+#box input.on{background:red;}
+#box div{width:200px; height:200px; background:#ccc; display:none;}
+</style>
+<script>
+window.onload=function(){
+	var oBox = document.getElementById('box');
+	var aBtn = oBox.getElementsByTagName('input');
+	var aDiv = oBox.getElementsByTagName('div');
+	var oPrev = document.getElementById('prev');
+	var oNext = document.getElementById('next');
+	var iNow=0;
+
+
+
+
+}
+
+
+
+</script>
+</head>
+
+<body>
+<div id="box">
+    <a href="#" id="prev">←</a>
+    <input type="button" value="aaa" />
+    <input type="button" value="aaa" />
+    <input type="button" value="aaa" />
+    <a href="#" id="next">→</a>
+    <div>111</div>
+    <div>222</div>
+    <div>333</div>
+</div>
+</body>
+</html>
